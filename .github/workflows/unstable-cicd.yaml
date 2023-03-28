@@ -42,6 +42,14 @@ concurrency: roundup
 # Round up, yee-haw!
 
 jobs:
+    actor-revelation:
+        name: 🕴️ Actor Revelation
+        runs-on: ubuntu-latest
+        steps:
+            -
+                name: 🔼 Lift the curtain
+                run: echo The actor is ${github.actor} 🎉
+
     unstable-assembly:
         name: 🧩 Unstable Assembly
         runs-on: ubuntu-latest
