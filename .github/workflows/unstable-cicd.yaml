@@ -48,7 +48,7 @@ jobs:
         steps:
             -
                 name: 🔼 Lift the curtain
-                run: echo The actor is ${github.actor} 🎉
+                run: echo The actor is ${{github.actor}} 🎉
 
     unstable-assembly:
         name: 🧩 Unstable Assembly
